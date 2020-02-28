@@ -21,6 +21,7 @@
 		DBB81877240947CF00C89F91 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB81876240947CF00C89F91 /* CollectionViewCell.swift */; };
 		DBB8187924094C7A00C89F91 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB8187824094C7A00C89F91 /* NetworkManager.swift */; };
 		DBB8187B24095C5E00C89F91 /* ImageProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB8187A24095C5E00C89F91 /* ImageProperties.swift */; };
+		DBB8187D2409625B00C89F91 /* DataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB8187C2409625B00C89F91 /* DataProvider.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		DBB81876240947CF00C89F91 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 		DBB8187824094C7A00C89F91 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		DBB8187A24095C5E00C89F91 /* ImageProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageProperties.swift; sourceTree = "<group>"; };
+		DBB8187C2409625B00C89F91 /* DataProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataProvider.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 			children = (
 				A83C30202108401A00592AE4 /* AppDelegate.swift */,
 				DBB8187824094C7A00C89F91 /* NetworkManager.swift */,
+				DBB8187C2409625B00C89F91 /* DataProvider.swift */,
 				DBB81874240947A400C89F91 /* MainViewController.swift */,
 				DBB81876240947CF00C89F91 /* CollectionViewCell.swift */,
 				DB6C6779240918F2005A54B8 /* ImageViewController.swift */,
@@ -169,6 +172,7 @@
 				DB6C678824093AAF005A54B8 /* WebViewController.swift in Sources */,
 				DB6C678424093381005A54B8 /* WebsiteDescription.swift in Sources */,
 				DBB8187924094C7A00C89F91 /* NetworkManager.swift in Sources */,
+				DBB8187D2409625B00C89F91 /* DataProvider.swift in Sources */,
 				DB6C678624093A4F005A54B8 /* TableViewCell.swift in Sources */,
 				DB6C677A240918F2005A54B8 /* ImageViewController.swift in Sources */,
 				DBB81875240947A400C89F91 /* MainViewController.swift in Sources */,
@@ -324,7 +328,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = ru.swiftbook.Networking;
+				PRODUCT_BUNDLE_IDENTIFIER = ru.hex.Networking;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -342,7 +346,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = ru.swiftbook.Networking;
+				PRODUCT_BUNDLE_IDENTIFIER = ru.hex.Networking;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
