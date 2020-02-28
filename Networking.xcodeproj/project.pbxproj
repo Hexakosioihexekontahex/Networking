@@ -13,11 +13,11 @@
 		A83C30282108401B00592AE4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A83C30272108401B00592AE4 /* Assets.xcassets */; };
 		A83C302B2108401B00592AE4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A83C30292108401B00592AE4 /* LaunchScreen.storyboard */; };
 		DB6C677A240918F2005A54B8 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6C6779240918F2005A54B8 /* ImageViewController.swift */; };
-		DB6C677C24092D74005A54B8 /* CoursesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6C677B24092D74005A54B8 /* CoursesViewController.swift */; };
-		DB6C677E24092D7C005A54B8 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6C677D24092D7C005A54B8 /* TableViewCell.swift */; };
-		DB6C678024092D85005A54B8 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6C677F24092D85005A54B8 /* WebViewController.swift */; };
 		DB6C678224092F0D005A54B8 /* Course.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6C678124092F0D005A54B8 /* Course.swift */; };
 		DB6C678424093381005A54B8 /* WebsiteDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6C678324093381005A54B8 /* WebsiteDescription.swift */; };
+		DB6C678624093A4F005A54B8 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6C678524093A4F005A54B8 /* TableViewCell.swift */; };
+		DB6C678824093AAF005A54B8 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6C678724093AAF005A54B8 /* WebViewController.swift */; };
+		DB6C678A24093ABA005A54B8 /* CoursesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6C678924093ABA005A54B8 /* CoursesViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,11 +29,11 @@
 		A83C302A2108401B00592AE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A83C302C2108401B00592AE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DB6C6779240918F2005A54B8 /* ImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
-		DB6C677B24092D74005A54B8 /* CoursesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CoursesViewController.swift; path = "../../../../swift ios/курс/[sharewood.biz] 20. Курс Networking/Конечный проект/Networking/Networking/CoursesViewController.swift"; sourceTree = "<group>"; };
-		DB6C677D24092D7C005A54B8 /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TableViewCell.swift; path = "../../../../swift ios/курс/[sharewood.biz] 20. Курс Networking/Конечный проект/Networking/Networking/TableViewCell.swift"; sourceTree = "<group>"; };
-		DB6C677F24092D85005A54B8 /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WebViewController.swift; path = "../../../../swift ios/курс/[sharewood.biz] 20. Курс Networking/Конечный проект/Networking/Networking/WebViewController.swift"; sourceTree = "<group>"; };
 		DB6C678124092F0D005A54B8 /* Course.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Course.swift; sourceTree = "<group>"; };
 		DB6C678324093381005A54B8 /* WebsiteDescription.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebsiteDescription.swift; sourceTree = "<group>"; };
+		DB6C678524093A4F005A54B8 /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		DB6C678724093AAF005A54B8 /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		DB6C678924093ABA005A54B8 /* CoursesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoursesViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,11 +69,11 @@
 				A83C30202108401A00592AE4 /* AppDelegate.swift */,
 				A83C30222108401A00592AE4 /* ViewController.swift */,
 				DB6C6779240918F2005A54B8 /* ImageViewController.swift */,
-				DB6C677B24092D74005A54B8 /* CoursesViewController.swift */,
-				DB6C677D24092D7C005A54B8 /* TableViewCell.swift */,
-				DB6C677F24092D85005A54B8 /* WebViewController.swift */,
+				DB6C678524093A4F005A54B8 /* TableViewCell.swift */,
+				DB6C678724093AAF005A54B8 /* WebViewController.swift */,
 				DB6C678124092F0D005A54B8 /* Course.swift */,
 				DB6C678324093381005A54B8 /* WebsiteDescription.swift */,
+				DB6C678924093ABA005A54B8 /* CoursesViewController.swift */,
 				A83C30242108401A00592AE4 /* Main.storyboard */,
 				A83C30272108401B00592AE4 /* Assets.xcassets */,
 				A83C30292108401B00592AE4 /* LaunchScreen.storyboard */,
@@ -154,14 +154,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DB6C677E24092D7C005A54B8 /* TableViewCell.swift in Sources */,
 				DB6C678224092F0D005A54B8 /* Course.swift in Sources */,
+				DB6C678824093AAF005A54B8 /* WebViewController.swift in Sources */,
 				DB6C678424093381005A54B8 /* WebsiteDescription.swift in Sources */,
-				DB6C678024092D85005A54B8 /* WebViewController.swift in Sources */,
+				DB6C678624093A4F005A54B8 /* TableViewCell.swift in Sources */,
 				A83C30232108401A00592AE4 /* ViewController.swift in Sources */,
-				DB6C677C24092D74005A54B8 /* CoursesViewController.swift in Sources */,
 				DB6C677A240918F2005A54B8 /* ImageViewController.swift in Sources */,
 				A83C30212108401A00592AE4 /* AppDelegate.swift in Sources */,
+				DB6C678A24093ABA005A54B8 /* CoursesViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
