@@ -10,8 +10,8 @@ import UIKit
 
 class ImageViewController: UIViewController {
     
-    @IBOutlet var imageView: UIImageView!
-    @IBOutlet var activityIndicator: UIActivityIndicatorView!
+    @IBOutlet weak var imageView: UIImageView!
+    @IBOutlet weak var activityIndicator: UIActivityIndicatorView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
