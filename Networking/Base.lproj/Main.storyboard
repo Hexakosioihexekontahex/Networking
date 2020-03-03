@@ -244,6 +244,7 @@
                         <segue destination="eEq-kV-HBK" kind="show" identifier="ShowImage" id="9XD-cn-0ea"/>
                         <segue destination="Okz-m4-eD1" kind="show" identifier="OurCourses" id="ECj-Q4-YhZ"/>
                         <segue destination="Okz-m4-eD1" kind="show" identifier="OurCoursesWithAlamofire" id="yZq-E8-ZwW"/>
+                        <segue destination="eEq-kV-HBK" kind="show" identifier="ResponseData" id="IYX-Ot-s6I"/>
                     </connections>
                 </collectionViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QNp-Q0-GA9" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -271,5 +272,6 @@
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="yZq-E8-ZwW"/>
+        <segue reference="IYX-Ot-s6I"/>
     </inferredMetricsTieBreakers>
 </document>
