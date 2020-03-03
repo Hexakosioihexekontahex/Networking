@@ -11,7 +11,7 @@ import Alamofire
 
 class AlamofireNetworkRequest {
     
-    static func makeRequest(url: String) {
+    static func makeRequest(url: String, completion: @escaping (_ courses: [Course]) -> ()) {
         
         guard let url = URL(string: url) else { return }
         
@@ -22,8 +22,12 @@ class AlamofireNetworkRequest {
 
             switch response.result {
             case .success(let value):
-                let v = response.value
-                print("value: \(value ?? "nil")")
+                
+                var courses = [Course]()
+                
+                courses = Course.getArray(from: value) ?? [Course]()
+                
+                completion(courses)
             case .failure(let error):
                 print("error: \(error)")
             }

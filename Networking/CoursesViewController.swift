@@ -26,16 +26,22 @@ class CoursesViewController: UIViewController {
     }
     
     func fetchDataWithAlamofire() {
-        AlamofireNetworkRequest.makeRequest(url: url)
+        AlamofireNetworkRequest.makeRequest(url: url) { courses in
+            self.showData(courses)
+        }
     }
     
     func fetchData() {
         NetworkManager.fetchData(url: url) { (courses) in
-            self.courses = courses
-            
-            DispatchQueue.main.async {
-                self.tableView.reloadData()
-            }
+            self.showData(courses)
+        }
+    }
+    
+    private func showData(_ courses: [Course]) {
+        self.courses = courses
+        
+        DispatchQueue.main.async {
+            self.tableView.reloadData()
         }
     }
     
