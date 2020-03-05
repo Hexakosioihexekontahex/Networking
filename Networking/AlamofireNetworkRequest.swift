@@ -187,4 +187,31 @@ class AlamofireNetworkRequest {
         }
         
     }
+    
+    static func uploadImage(url: String) {
+        
+        guard let url = URL(string: url) else { return }
+        
+        let image = UIImage(named: "Notification")!
+        let data = image.pngData()!
+        
+        let httpHeaders = ["Authorization": "Client-ID 5e15df6314f10fc"]
+        
+        
+        AF.upload(multipartFormData: { multiPart in
+            multiPart.append(data, withName: "image")
+        }, to: url, headers: HTTPHeaders(httpHeaders))
+            .uploadProgress(queue: .main, closure: { progress in
+                print("Upload Progress: \(progress.fractionCompleted)")
+            })
+            .responseJSON(completionHandler: { data in
+                
+                switch data.result {
+                case .success(let value):
+                    print(value)
+                case .failure(let error):
+                    print(error)
+                }
+            })
+    }
 }

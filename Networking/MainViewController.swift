@@ -23,12 +23,13 @@ enum Actions: String, CaseIterable {
     case largeImage = "Download Large Image"
     case postAlamofire = "Post with Alamofire"
     case putRequest = "Put Request with Alamofire"
+    case uploadImageAlamofire = "Upload image (Alamofire)"
 }
 
 private let reuseIdentifier = "Cell"
 private let url = "https://jsonplaceholder.typicode.com/posts"
 private let swiftbookApi = "https://swiftbook.ru//wp-content/uploads/api/api_courses"
-private let uploadUrl = "https://api.imgur.com/3/image"
+private let uploadImageUrl = "https://api.imgur.com/3/image"
 
 class MainViewController: UICollectionViewController {
     
@@ -113,7 +114,7 @@ class MainViewController: UICollectionViewController {
         case .ourCourses:
             performSegue(withIdentifier: "OurCourses", sender: self)
         case .uploadImage:
-            NetworkManager.uploadImage(url: uploadUrl)
+            NetworkManager.uploadImage(url: uploadImageUrl)
         case .downloadFile:
             showAlert()
             dataProvider.startDownload()
@@ -131,6 +132,8 @@ class MainViewController: UICollectionViewController {
             performSegue(withIdentifier: "PostRequest", sender: self)
         case .putRequest:
             performSegue(withIdentifier: "PutRequest", sender: self)
+        case .uploadImageAlamofire:
+            AlamofireNetworkRequest.uploadImage(url: uploadImageUrl)
         }
     }
     
