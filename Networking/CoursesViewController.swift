@@ -11,7 +11,9 @@ import Alamofire
 
 class CoursesViewController: UIViewController {
     
-    let url = "https://swiftbook.ru//wp-content/uploads/api/api_courses"
+    private let url = "https://swiftbook.ru//wp-content/uploads/api/api_courses"
+    private let postRequestUrl = "https://jsonplaceholder.typicode.com/posts"
+    private let putRequestUrl = "https://jsonplaceholder.typicode.com/posts/1"
 
     @IBOutlet var tableView: UITableView!
     
@@ -27,6 +29,20 @@ class CoursesViewController: UIViewController {
     
     func fetchDataWithAlamofire() {
         AlamofireNetworkRequest.makeRequest(url: url) { courses in
+            self.showData(courses)
+        }
+    }
+    
+    func postRequest() {
+        AlamofireNetworkRequest.postRequest(url: postRequestUrl) { courses in
+            
+            self.showData(courses)
+        }
+    }
+    
+    func putRequest() {
+        AlamofireNetworkRequest.putRequest(url: putRequestUrl) { courses in
+            
             self.showData(courses)
         }
     }

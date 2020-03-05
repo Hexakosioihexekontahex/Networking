@@ -166,7 +166,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yBJ-j0-tJf" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2775.1999999999998" y="483.50824587706148"/>
+            <point key="canvasLocation" x="3049" y="484"/>
         </scene>
         <!--Web View Controller-->
         <scene sceneID="8s6-O0-aFA">
@@ -208,7 +208,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6cU-Ln-2vd" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3536.8000000000002" y="483.50824587706148"/>
+            <point key="canvasLocation" x="3809" y="484"/>
         </scene>
         <!--Controls-->
         <scene sceneID="fxI-qN-ELW">
@@ -269,6 +269,8 @@
                         <segue destination="Okz-m4-eD1" kind="show" identifier="OurCoursesWithAlamofire" id="yZq-E8-ZwW"/>
                         <segue destination="eEq-kV-HBK" kind="show" identifier="ResponseData" id="IYX-Ot-s6I"/>
                         <segue destination="eEq-kV-HBK" kind="show" identifier="LargeImage" id="gVv-Sq-iK4"/>
+                        <segue destination="Okz-m4-eD1" kind="show" identifier="PostRequest" id="r5Q-Ux-XFz"/>
+                        <segue destination="Okz-m4-eD1" kind="show" identifier="PutRequest" id="UjS-Iq-YHz"/>
                     </connections>
                 </collectionViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QNp-Q0-GA9" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -295,7 +297,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="yZq-E8-ZwW"/>
+        <segue reference="UjS-Iq-YHz"/>
         <segue reference="IYX-Ot-s6I"/>
     </inferredMetricsTieBreakers>
 </document>
